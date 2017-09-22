@@ -55,3 +55,8 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.badge {
+  width:7.7%;
+  margin: .5%;
+}
