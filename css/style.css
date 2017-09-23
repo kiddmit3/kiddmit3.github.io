@@ -89,3 +89,6 @@ footer.page-footer {
     -webkit-transform:rotate(720deg);
 }
 
+.card.large {
+  height: 700px;
+}
