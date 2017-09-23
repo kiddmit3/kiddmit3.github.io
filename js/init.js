@@ -23,4 +23,5 @@
   setTimeout(autoplay,6000);
  }
 
-$(".dropdown-button").dropdown();
+
+// $(".dropdown-button").dropdown();
