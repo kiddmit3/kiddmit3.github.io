@@ -20,5 +20,7 @@
  autoplay()
  function autoplay(){
   $('.carousel').carousel('next');
-  setTimeout(autoplay,4500);
+  setTimeout(autoplay,6000);
  }
+
+$(".dropdown-button").dropdown();

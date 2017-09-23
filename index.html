@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<link rel="shortcut icon" href="32.png" />
+    <link rel="shortcut icon" href="32.png" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>David Lac (Web Developer)</title>
@@ -14,26 +14,25 @@
 </head>
 
 <body>
-<div class="navbar-fixed">
-    <nav class="white" role="navigation">
-        <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo"><img src="favicon-96x96.png"></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Portfolio</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Other</a></li>                                                
-            </ul>
-            <ul id="nav-mobile" class="side-nav">
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Portfolio/a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Other</a></li>
-            </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>
-</div>    
+    <div class="navbar-fixed">
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#" class="blue-grey-text">About Me</a></li>
+            <li><a href="#port" class="blue-grey-text">My Portfolio</a></li>
+            <li><a href="#resume" class="blue-grey-text">Resume</a></li>
+            <li><a href="#other" class="blue-grey-text">Other</a></li>
+        </ul>
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#!" class="brand-logo dropdown-button" data-activates="dropdown1"><img id="logo" src="favicon-96x96.png"></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#port">My Portfolio</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#other">Other</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
             <div class="container">
@@ -50,169 +49,176 @@
                 <br>
             </div>
         </div>
-        <div class="parallax"><img src="profile.jpg" alt="Unsplashed background img 1"></div>
+        <div class="parallax"><img src="profile.jpg" id="firstpic"></div>
     </div>
     <div class="container">
         <div class="section">
             <!--   Icon Section   -->
             <div class="row">
                 <div class="col s12 m4">
-                    <div class="icon-block">
+                    <div class="icon-block card large hoverable">
                         <h2 class="center blue-grey-text"><i class="material-icons">developer_mode</i></h2>
                         <h5 class="center">About Me</h5>
                         <p class="light">I am an end to end product developer whose passion is fed through competition and the pursuit of never ending learning. I understand that the customer is the single most valuable asset in the product stream and that working together as a team and doing your part as an individual is what accomplishes any goal that is set down.</p>
                     </div>
                 </div>
                 <div class="col s12 m4">
-                    <div class="icon-block">
+                    <div class="icon-block card large hoverable">
                         <h2 class="center blue-grey-text"><i class="material-icons">group</i></h2>
-                        <h5 class="center">User Experience Focused</h5>
-                        <p class="light"> I enjoy making products that are both easy to use and easy on the eyes, and picture how I would use it and what features I would want. To that end, I ultilize components and animations that provide more feedback to users and a  responsive system across all platforms allow for a more unified user experience. </p>
+                        <h5 class="center">User Focused</h5>
+                        <p class="light"> I enjoy making products that are both easy to use and easy on the eyes. I like picture how I would use applications I am building and imagine what features I would want. Its a good thing that I'm selective. To that end, I ultilize components and animations that provide more feedback to users and a responsive system across all platforms allow for a more unified user experience. </p>
                     </div>
                 </div>
                 <div class="col s12 m4">
-                    <div class="icon-block">
+                    <div class="icon-block card large hoverable">
                         <h2 class="center blue-grey-text"><i class="material-icons">settings</i></h2>
                         <h5 class="center">Easy to work with</h5>
-                        <p class="light">Throughout my career, I jived  well with others across multiple teams. Whether it is in the food or tech industry, communication and a mutual understanding has always been key in successful product development. I look forward to practicing more of these skills in future projects.</p>
+                        <p class="light">Throughout my career, I jived well with others across multiple teams. Whether it is in the food or tech industry, communication and a mutual understanding has always been key in successful product development. I look forward to practicing more of these skills in future projects.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     </div>
-
-
-                    <h2 class="center blue-grey-text"><i class="material-icons medium">library_books</i></h2>
-                    <h4 class="center">My Portfolio</h4>
-
-    <div class="container">
-        <div class="section">
-            <div class="row">
-                
+    <div class="container scrollspy" id="port" ">
+        <div class="section ">
+            <div class="row ">
             </div>
-            <div class="carousel carousel-slider center" data-indicators="true">
-                <div class="carousel-fixed-item center">
-                    <a class="btn waves-effect white grey-text darken-text-2">button</a>
+            <div class="carousel carousel-slider center " data-indicators="true ">
+                <div class="carousel-fixed-item center ">
                 </div>
-
-                <div class="carousel-item white-text" href="#one!">
-                	<img src="./assets/img/portfolio/eventstay.png">
+                <div class="carousel-item white-text " href="#one! ">
+                    <img src="./assets/img/portfolio/eventstay.png ">
                 </div>
-                <div class="carousel-item white-text" href="#two!">
-                    <img src="./assets/img/portfolio/friendfinder.png">
+                <div class="carousel-item white-text " href="#two! ">
+                    <img src="./assets/img/portfolio/friendfinder.png ">
                 </div>
-                <div class="carousel-item white-text" href="#three!">
-                    <img src="./assets/img/portfolio/scraper.png">
-                </div>
-                <div class="carousel-item blue white-text" href="#four!">
-                    <img src="./assets/img/portfolio/giftastic.png">                	
+                <div class="carousel-item white-text " href="#three! ">
+                    <img src="./assets/img/portfolio/scraper.png ">
                 </div>
             </div>
-				<div class="col s12 center">
-                    <p class="left-align light">Here I have highlighted a few of my more polished works that show a number of technologies through both front end and back end web development. I look forward to any task that would solve issues related to data flow, automation, and user interface.</p>
-                </div>
-                <div class="col s12 center">
-                	<img class="badge" src="./assets/img/html5.png">
-                	<img class="badge" src="./assets/img/css.png">
-                 	<img class="badge" src="./assets/img/bootstrap.png">               	
-                	<img class="badge" src="./assets/img/jquery.png">    
-                 	<img class="badge" src="./assets/img/javascript.png">         	
-                 	<img class="badge" src="./assets/img/express.png">    
-                	<img class="badge" src="./assets/img/ajax.png">            	
-                 	<img class="badge" src="./assets/img/materialize.png">
-                	<img class="badge" src="./assets/img/mysql.png">                 	    
-                	<img class="badge" src="./assets/img/mongodb.png">
-                 	<img class="badge" src="./assets/img/moongoose.png">    
-                	<img class="badge" src="./assets/img/node-js.png">
-                 	<img class="badge" src="./assets/img/reactjs.png">               	   
-                </div>
+            <a class="btn-large waves-effect waves-light blue-grey lighten-1 hoverable " href="http://nanettejulius.com/EventStay/ " target="_blank " >EventStay</a>
+            <a class="btn-large waves-effect waves-light blue-grey lighten-1 hoverable " href="https://davidsfriendfinder.herokuapp.com/ " target="_blank " >FriendFinder</a>
+            <a class="btn-large waves-effect waves-light blue-grey lighten-1 hoverable " href="https://potatoscrapper.herokuapp.com/ " target="_blank " >Potato Scrapper</a>
+            <div class="icon-block col s12 card hoverable ">
+                <p class="light ">Here I have highlighted a few of my more polished works that show a number of technologies through both front end and back end web development. I look forward to any future project that would solve issues related to data flow, automation, and user interface.</p>
+            </div>
+            <div class="col s12 center ">
+                <img class="badge " src="./assets/img/html5.png">
+                <img class="badge " src="./assets/img/css.png">
+                <img class="badge " src="./assets/img/bootstrap.png">
+                <img class="badge " src="./assets/img/jquery.png">
+                <img class="badge " src="./assets/img/node.png">                
+                <img class="badge " src="./assets/img/javascript.png">
+                <img class="badge " src="./assets/img/expressjs.png">
+                <img class="badge " src="./assets/img/mysql.png">
+                <img class="badge " src="./assets/img/express.png">
+
+                <img class="badge " src="./assets/img/mongodb.png"> 
+                <img class="badge " src="./assets/img/materialize.png">
+
+                <img class="badge " src="./assets/img/moongoose.png">
+
+                <img class="badge " src="./assets/img/reactjs.png">
+            </div>
         </div>
     </div>
-    <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                    <h5 class="header col s12 light">Life is about connections. Let's make the most of it!</h5>
+    <div class="parallax-container valign-wrapper scrollspy " id="resume">
+        <div class="section no-pad-bot ">
+            <div class="container ">
+                <div class="row center ">
+                    <i class="material-icons large section ">phonelink_ring</i>
+                    <h5 class="header col s12 light ">Life is about connections. Let's make the most of it!</h5>
                 </div>
             </div>
         </div>
-        <div class="parallax"><img src="climb.jpg" alt="Unsplashed background img 2"></div>
+        <div class="parallax "><img src="climb.jpg " alt="Unsplashed background img 2 "></div>
     </div>
-    <div class="container">
-        <div class="section">
-            <div class="row">
-                <div class="col s12 center">
-
-                	<h2 class="center blue-grey-text"><i class="material-icons medium">phonelink_ring</i></h2>
-                    <h4 class="center">My Contact and Resume</h4>
-
+    <div class="container ">
+        <div class="section ">
+            <div class="row ">
+                <div class="col s12 center ">
+                    <h4 class="center ">Contact information and Resume</h4>
                 </div>
             </div>
-            <div class="row">
-                <div class="col s12 m8">
-                    <div class="icon-block">
-                        <h2 class="center blue-grey-text"><i class="material-icons">attach_file</i></h2>
-                        <h5 class="center">
-                                            <a onclick="window.open('DavidLacWebResume.pdf')" id="pdf-button" class="btn-large waves-effect waves-light blue-grey lighten-1">DOWNLOAD RESUME</a></h5>
-                        <p class="light">My resume is available for download as a .pdf for any prospective employers. If there are any queries regarding my resume, feel free to contact me about it and I'll make sure your questions get answered!</p>
+            <div class="row ">
+                <div class="col s12 m6 ">
+                    <div class="LI-profile-badge center " data-version="v1 " data-size="large " data-locale="en_US " data-type="vertical " data-theme="light " data-vanity="david-lac-1491325a "><a class="LI-simple-link " href='https://www.linkedin.com/in/david-lac-1491325a?trk=profile-badge'>David Lac</a></div>
+                </div>
+                <div class="col s12 m6 ">
+                    <div class="icon-block card hoverable ">
+                        <br/>
+                        <h2 class="center blue-grey-text "><i class="material-icons ">attach_file</i></h2>
+                        <p class="light ">My resume is available for download as a .pdf for any prospective employers. If there are any queries regarding my resume, feel free to contact me about it and I'll make sure your questions get answered!</p>
+                        <br/>
+                        <div class="center "><a onclick="window.open( 'DavidLacWebResume.pdf') " id="pdf-button " class="btn-large waves-effect waves-light blue-grey lighten-1 ">DOWNLOAD RESUME</a></div>
+                        <br/>
+                        <br/>
+                        <br/>
                     </div>
                 </div>
-                <div class="col s12 m4">
-                    <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="david-lac-1491325a"><a class="LI-simple-link" href='https://www.linkedin.com/in/david-lac-1491325a?trk=profile-badge'>David Lac</a></div>
-                </div>
             </div>
         </div>
     </div>
-    <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                    <h5 class="header col s12 light">Speaking of connections, there are more ways to contact other than through work.</h5>
+    <div class="parallax-container valign-wrapper scrollspy " id="other">
+        <div class="section no-pad-bot ">
+            <div class="container ">
+                <div class="row center ">
+                    <i class="material-icons large ">person_add</i>
+                    <h5 class="header col s12 light ">Speaking of connections, there are more ways to contact other than through work.</h5>
                 </div>
             </div>
         </div>
-        <div class="parallax"><img src="bg2.jpg" alt="Unsplashed background img 2"></div>
+        <div class="parallax "><img src="bg2.jpg " alt="Unsplashed background img 2 "></div>
     </div>
-    <div class="container">
-        <div class="section">
-            <div class="row">
-                <div class="col s12 center">
-                    <h3><i class="mdi-content-send blue-grey-text"></i></h3>
+    <div class="container ">
+        <div class="section ">
+            <div class="row ">
+                <div class="col s12 m8 center ">
+                    <h3><i class="mdi-content-send blue-grey-text "></i></h3>
                     <h4>Find me on social media and other things</h4>
-                    <p class="left-align light">Try to find me in other ways than work. I have an interest in a number of things outside of web development including music, photography, and rock climbing. I'm not afraid to show who I am. To me, it's all about a balanced life, so check my instagram, mixcloud, and flickr account if you ever have the time. At the same time, I'd like to get to know you too, so follow and I'll follow back!</p>
+                    <p class="left-align light ">Try to find me in other ways than work. I have an interest in activities outside of web development including music, photography, and rock climbing. I'm not afraid to show who I am. To me, it's all about a balanced life, so check out my instagram, mixcloud, and flickr account if you ever have the time. At the same token, I'd like to get to know you too, so follow and I'll follow back!</p>
+                </div>
+                <div class="col s12 m4 center ">
+                    <!-- SnapWidget -->
+                    <script src="https://snapwidget.com/js/snapwidget.js "></script>
+                    <iframe src="https://snapwidget.com/embed/444937 " class="snapwidget-widget " allowTransparency="true " frameborder="0 " scrolling="no " style="border:none; overflow:hidden; width:100%; "></iframe>
                 </div>
             </div>
         </div>
     </div>
-    <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                    <h5 class="header col s12 light">Thanks for visiting! Catch you on the flipside!
+    <div class="parallax-container valign-wrapper ">
+        <div class="section no-pad-bot ">
+            <div class="container ">
+                <div class="row center ">
+                    <h5 class="header col s12 light ">Thanks for visiting! Catch you on the flipside!
                     </h5>
                 </div>
             </div>
         </div>
-        <div class="parallax"><img src="snorkel.jpg" alt="Unsplashed background img 3"></div>
+        <div class="parallax "><img src="snorkel.jpg " alt="Unsplashed background img 3 "></div>
     </div>
-    <footer class="page-footer blue-grey darken-2">
-        <div class="container">
-            <div class="row"><br/><br/><br/><br/>
-                <div class="col l6 s12">
+    <footer class="page-footer blue-grey darken-2 ">
+        <div class="container ">
+            <div class="row ">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <div class="col l6 s12 ">
                 </div>
             </div>
         </div>
-        <div class="footer-copyright">
-            <div class="container">
+        <div class="footer-copyright ">
+            <div class="container ">
                 Copyright © 2017 David Lac
             </div>
         </div>
     </footer>
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
+    <script src="js/materialize.js "></script>
+    <script src="js/init.js "></script>
 </body>
 
 </html>

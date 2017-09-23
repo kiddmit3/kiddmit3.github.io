@@ -57,7 +57,7 @@ footer.page-footer {
 }
 
 .badge {
-  width:7.7%;
+  width:8%;
   margin-right: .2%;
   margin-bottom: 10%;
 }
@@ -71,3 +71,18 @@ footer.page-footer {
   position: relative;
   top: 40px;
 }
+
+#logo {
+    border-radius:50%;    
+    -webkit-transition: -webkit-transform .5s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .5s ease-in-out;
+
+    
+}
+#logo:hover{
+    transform:rotate(720deg);
+    -ms-transform:rotate(720deg);
+    -webkit-transform:rotate(720deg);
+}
+
