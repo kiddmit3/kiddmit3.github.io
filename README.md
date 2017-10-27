@@ -1,4 +1,4 @@
-<img src="./favicon-96x96.png" style="margin: auto;" />
+<img src="./favicon-96x96.png" style="text-align:center;" />
 
 # kiddmit3.github.io
 This is my personal portfolio webpage developed to showcase some of my work to any prospective employers.
