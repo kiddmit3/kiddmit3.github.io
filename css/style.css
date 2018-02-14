@@ -32,22 +32,6 @@ p {
     width: 100%;
   }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
 .icon-block {
   padding: 0 15px;
 }
@@ -91,4 +75,30 @@ footer.page-footer {
 
 .card.large {
   height: 700px;
+}
+
+  .parallax img { 
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  .parallax img { 
+  width: 1000px;
+}
+
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
 }

@@ -23,5 +23,10 @@
   setTimeout(autoplay,6000);
  }
 
+  $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
+
+  
 
 // $(".dropdown-button").dropdown();
