@@ -1,45 +1,53 @@
 <!DOCTYPE html>
+
+<!-- TO DO: Add button links to footer with on hover overlay-->
+<!-- TO DO: Add css animations to fade in things -->
+
+
 <html lang="en">
 
 <head>
     <link rel="shortcut icon" href="32.png" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>David Lac (Web Developer)</title>
-    <!-- CSS  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />  
+
+<!-- links to fonts, icons, materialize, linkedin, and custom css -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Rock+Salt" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+    <title>David Lac (Full Stack Web Developer)</title>
 </head>
 
 <body>
     <div class="navbar-fixed">
         <ul id="dropdown1" class="dropdown-content">
+            <li class="transparent"></li>
+            <li class="transparent"></li>
             <li><a href="#" class="blue-grey-text">About Me</a></li>
             <li><a href="#port" class="blue-grey-text">My Portfolio</a></li>
-            <li><a href="#resume" class="blue-grey-text">Resume</a></li>
-            <li><a href="#other" class="blue-grey-text">Other</a></li>
+            <li><a href="#other" class="blue-grey-text">Resume</a></li>
         </ul>
-        <nav class="white" role="navigation">
+
+        <nav class="white z-depth-1" role="navigation">
             <div class="nav-wrapper container">
                 <a id="logo-container" href="#!" class="brand-logo dropdown-button" data-activates="dropdown1"><img id="logo" src="favicon-96x96.png"></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#">About Me</a></li>
                     <li><a href="#port">My Portfolio</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#other">Other</a></li>
+                    <li><a href="#other">Resume</a></li>
                 </ul>
             </div>
         </nav>
     </div>
+
+
     <div id="index-banner" class="parallax-container">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <br>
-                <br>
-                <h1 class="header center white-text text-darken-2" id="nametitle">DAVID LAC</h1>
-                <div class="row center">
+        <div class="section">
+            <div class="container caption">
+                <h1 class="header center white-text text-darken-2 rock-salt" id="nametitle">DAVID LAC</h1>
+                <div class="row center" id="description">
                     <h5 class="header col s12 light">An up-and-coming web developer with a knack for functionality and aesthetics.</h5>
                 </div>
                 <div class="row center">
@@ -55,177 +63,164 @@
         <div class="section">
             <!--   Icon Section   -->
             <div class="row">
-                <div class="col s12 m4">
-                    <div class="icon-block card large hoverable">
-                    	<br/>
-                        <h2 class="center blue-grey-text"><i class="material-icons">developer_mode</i></h2>
-                        <h5 class="center">About Me</h5>
-                        <p class="light">I am an end to end product developer whose passion is fed through competition and the pursuit of never ending learning. I understand that the customer is the single most valuable asset in the product stream and that working together as a team and doing your part as an individual is what accomplishes any goal that is set down.</p>
+                <div class="col s12 m12 l4">
+                    <div class="icon-block card-panel hoverable">
+                        <h2 class="center blue-grey-text"><i class="material-icons header">developer_mode</i></h2>
+                        <h5 class="center">A Little About Me</h5>
+                        <p class="light">I am an end to end product developer that understands that the customer/user is the single most valuable asset in the product stream and that working together as a team and doing your part as an individual is what accomplishes goals and help reach milestones.</p>
                     </div>
                 </div>
-                <div class="col s12 m4">
-                    <div class="icon-block card large hoverable">
-                    	<br/>
-                        <h2 class="center blue-grey-text"><i class="material-icons">group</i></h2>
-                        <h5 class="center">User Focused</h5>
-                        <p class="light"> I enjoy making products that are both easy to use and easy on the eyes. I like to picture how I would use the applications I am building and imagine what features I would want. It's a good thing then that I'm picky and selective. To that end, I ultilize components and animations to provide more feedback to users and a responsive system across all platforms allow for a more unified user experience. </p>
+                <div class="col s12 m12 l4">
+                    <div class="icon-block card-panel hoverable">
+                        <h2 class="center blue-grey-text"><i class="material-icons header">group</i></h2>
+                        <h5 class="center">I am User Focused</h5>
+                        <p class="light"> I enjoy making products that are both easy to use and easy on the eyes. I picture how I would use the applications I am building and imagine what features are needed. To that end, I work across the entire system architecture, from backend to front end, to design, develop, and support high quality and scalable products that allows for a more unified user experience matched with high performance, security, quality, and stability. </p>
                     </div>
                 </div>
-                <div class="col s12 m4">
-                    <div class="icon-block card large hoverable">
-                    	<br/>
-                        <h2 class="center blue-grey-text"><i class="material-icons">settings</i></h2>
+                <div class="col s12 m12 l4">
+                    <div class="icon-block card-panel hoverable">
+                        <h2 class="center blue-grey-text"><i class="material-icons header med">settings</i></h2>
                         <h5 class="center">Easy to work with</h5>
-                        <p class="light">Throughout my career, I jived well with others across multiple teams. Whether it is in the food or tech industry, communication and a mutual understanding has always been key in successful product development. I look forward to practicing more of these skills in future projects.</p>
+                        <p class="light">Throughout my career, I jived well with others across multiple teams. Whether it is in manufacturing or in tech, communication and a mutual understanding has always been key in any successful product development. By working closely with others, I take ideas and mockups from conception to implementation and deployment. I look forward to practicing more of these skills in future projects.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     </div>
-    <div class="container scrollspy" id="port" ">
-        <div class="section ">
-            <div class="row ">
+    <div class="container scrollspy" id="port">
+        <div class="section">
+            <div class="row">
             </div>
-            <div class="carousel carousel-slider center " data-indicators="true ">
-                <div class="carousel-fixed-item center ">
+            <div class="carousel carousel-slider" data-indicators="true">
+                <div class="carousel-fixed-item center">
                 </div>
-                <div class="carousel-item white-text " href="#one! ">
-                    <img src="./assets/img/portfolio/PLW.png ">
+                <div class="carousel-item white-text" href="#one!">
+                    <img src="./assets/img/portfolio/PLW.png">
                 </div>
-                <div class="carousel-item white-text " href="#two! ">
-                    <img src="./assets/img/portfolio/eventstay.png ">
+                <div class="carousel-item white-text" href="#two!">
+                    <img src="./assets/img/portfolio/eventstay.png">
                 </div>
-                <div class="carousel-item white-text " href="#three! ">
-                    <img src="./assets/img/portfolio/friendfinder.png ">
+                <div class="carousel-item white-text" href="#three!">
+                    <img src="./assets/img/portfolio/friendfinder.png">
                 </div>
-                <div class="carousel-item white-text " href="#four! ">
-                    <img src="./assets/img/portfolio/taptap.jpg ">
+                <div class="carousel-item white-text" href="#four!">
+                    <img src="./assets/img/portfolio/taptap.jpg">
                 </div>
-                <div class="carousel-item white-text " href="#five! ">
-                    <img src="./assets/img/portfolio/todo.jpg ">
+                <div class="carousel-item white-text" href="#five!">
+                    <img src="./assets/img/portfolio/todo.jpg">
+                </div>              
+            </div>
+            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://plw-tutor-service.herokuapp.com/" target="_blank" >PLW Tutoring</a>      
+            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="http://kiddmit3.github.io/EventStay/" target="_blank" >EventStay</a>
+            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://davidsfriendfinder.herokuapp.com/" target="_blank">FriendFinder</a>
+            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://kiddmit3.github.io/TapTapBeat/" target="_blank" >TapTapBeat</a>
+            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://kiddmit3.github.io/RBGColorGame/" target="_blank" >RBGColorGame</a>
+            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://kiddmit3.github.io/ToDoList/" target="_blank" >To Do List</a>                        
+            <div class="icon-block col s12 card hoverable">
+                <p class="light">Here I have highlighted a few of my more polished works that show a number of technologies through both front end and back end web development. I always have a few projects I'm working on so come back and see what's updated.</p>
+            </div>
+            <div class="col s12 center">
+                <img class="badge" src="./assets/img/html5.png">
+                <img class="badge" src="./assets/img/css.png">
+                <img class="badge" src="./assets/img/bootstrap.png">
+                <img class="badge" src="./assets/img/jquery.png">
+                <img class="badge" src="./assets/img/node.png">      
+                <img class="badge" src="./assets/img/javascript.png">
+                <img class="badge" src="./assets/img/expressjs.png">
+                <img class="badge" src="./assets/img/mysql.png">
+                <img class="badge" src="./assets/img/mongodb.png"> 
+                <img class="badge" src="./assets/img/materialize.png">
+                <img class="badge" src="./assets/img/reactjs.png">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper scrollspy" id="other">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <i class="material-icons large">person_add</i>
+                    <h5 class="col s12 light">Life is about connections. Let's make the most of it!</h5>
                 </div>
-                <div class="carousel-item white-text " href="#six! ">
-                    <img src="./assets/img/portfolio/scraper.png ">
+            </div>
+        </div>
+        <div class="parallax"><img src="./assets/img/bg/bg2.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="LI-profile-badge center"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="davidlac"><a class="LI-simple-link" href='https://www.linkedin.com/in/davidlac?trk=profile-badge'>David Lac</a></div>
+                </div>
+
+                <div class="col s12 m6">
+                  <div class="card hoverable">
+                    <div class="card-image">
+                      <img class="activator" src="./assets/img/cardimg/5.jpg">
+                      <a class="btn-floating halfway-fab waves-effect waves-light red" onclick="window.open( 'DavidLacWebResume.pdf')" id="pdf-button"><i class="material-icons">attach_file</i></a>
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">David's Resume<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Pass it around!<i class="material-icons right">close</i></span>
+                      <p>My resume is available for download as a .pdf for any prospective employers. If there are any queries regarding my resume, feel free to contact me about it and I'll make sure to send a response with your questions get answered!</p>
+                      <a class="btn-large waves-effect waves-light red" onclick="window.open( 'DavidLacWebResume.pdf')" id="pdf-button"><i class="material-icons">attach_file</i></a>
+                    </div>
+                  </div>
+                </div>
                 </div>                
             </div>
-            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://plw-tutor-service.herokuapp.com/" target="_blank " >PLW Tutoring</a>      
-            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="http://kiddmit3.github.io/EventStay/ " target="_blank " >EventStay</a>
-            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://davidsfriendfinder.herokuapp.com/ " target="_blank ">FriendFinder</a>
-            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://potatoscrapper.herokuapp.com/ " target="_blank " >Potato</a>
-            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://kiddmit3.github.io/TapTapBeat/ " target="_blank " >TapTapBeat</a>
-            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://kiddmit3.github.io/RBGColorGame/ " target="_blank " >RBGColorGame</a>
-            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://kiddmit3.github.io/ToDoList/ " target="_blank " >To Do List</a>                        
-            <div class="icon-block col s12 card hoverable ">
-                <p class="light ">Here I have highlighted a few of my more polished works that show a number of technologies through both front end and back end web development. I always have a few projects I'm working on so come back and see what's updated.</p>
-            </div>
-            <div class="col s12 center ">
-                <img class="badge " src="./assets/img/html5.png">
-                <img class="badge " src="./assets/img/css.png">
-                <img class="badge " src="./assets/img/bootstrap.png">
-                <img class="badge " src="./assets/img/jquery.png">
-                <img class="badge " src="./assets/img/node.png">      
-                <img class="badge " src="./assets/img/javascript.png">
-                <img class="badge " src="./assets/img/expressjs.png">
-                <img class="badge " src="./assets/img/mysql.png">
-                <img class="badge " src="./assets/img/mongodb.png"> 
-                <img class="badge " src="./assets/img/materialize.png">
-                <img class="badge " src="./assets/img/reactjs.png">
-            </div>
         </div>
     </div>
-    <div class="parallax-container valign-wrapper scrollspy " id="resume">
-        <div class="section no-pad-bot ">
-            <div class="container ">
-                <div class="row center ">
-                    <i class="material-icons large ">phonelink_ring</i>
-                    <h5 class="header col s12 light ">Life is about connections. Let's make the most of it!</h5>
-                </div>
-            </div>
-        </div>
-        <div class="parallax "><img src="./assets/img/bg/climb.jpg " alt="Unsplashed background img 2 "></div>
-    </div>
-    <div class="container ">
-        <div class="section ">
-            <div class="row ">
-                <div class="col s12 m6 ">
 
-<div class="LI-profile-badge center"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="davidlac"><a class="LI-simple-link" href='https://www.linkedin.com/in/davidlac?trk=profile-badge'>David Lac</a></div>
-                </div>
-                <div class="col s12 m6 ">
-                    <div class="icon-block card hoverable ">
-                        <br/>
-                        <h2 class="center blue-grey-text "><i class="material-icons ">attach_file</i></h2>
-                        <p class="light ">My resume is available for download as a .pdf for any prospective employers. If there are any queries regarding my resume, feel free to contact me about it and I'll make sure your questions get answered!</p>
-                        <br/>
-                        <div class="center "><a onclick="window.open( 'DavidLacWebResume.pdf') " id="pdf-button " class="btn-large waves-effect waves-light blue-grey lighten-1 ">DOWNLOAD RESUME</a></div>
-                        <br/>
-                        <br/>
-                        <br/>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="parallax-container valign-wrapper scrollspy " id="other">
-        <div class="section no-pad-bot ">
-            <div class="container ">
-                <div class="row center ">
-                    <i class="material-icons large ">person_add</i>
-                    <h5 class="header col s12 light ">Speaking of connections, there are more ways to contact other than through work.</h5>
-                </div>
-            </div>
-        </div>
-        <div class="parallax "><img src="./assets/img/bg/bg2.jpg " alt="Unsplashed background img 2 "></div>
-    </div>
-    <div class="container ">
-        <div class="section ">
-            <div class="row ">
-                <div class="col s12 m8 center ">
-                    <h3><i class="mdi-content-send blue-grey-text "></i></h3>
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m8 center">
+                    <h3><i class="mdi-content-send blue-grey-text"></i></h3>
                     <h4>Find me on social media and other things</h4>
-                    <p class="left-align light ">Try to find me in other ways than work. I have an interest in activities outside of web development including music, photography, and rock climbing. I'm not afraid to show who I am. To me, it's all about a balanced life, so check out my instagram, mixcloud, and flickr account if you ever have the time. At the same token, I'd like to get to know you too, so follow and I'll follow back!</p>
+                    <p class="left-align light">Try to find me in other ways than work. I have an interest in activities outside of web development including music, photography, board games, and rock climbing. I'm not afraid to show who I am. To me, it's all about a balanced life, so check out my instagram, mixcloud, and flickr account if you ever have the time. By the same token, I'd like to get to know you too, so follow and I'll follow back!</p>
                 </div>
-                <div class="col s12 m4 center ">
+                <div class="col s12 m4 center">
                     <!-- SnapWidget -->
-                    <script src="https://snapwidget.com/js/snapwidget.js "></script>
-                    <iframe src="https://snapwidget.com/embed/444937 " class="snapwidget-widget " allowTransparency="true " frameborder="0 " scrolling="no " style="border:none; overflow:hidden; width:100%; "></iframe>
+                    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                    <iframe src="https://snapwidget.com/embed/444937" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
                 </div>
             </div>
         </div>
     </div>
-    <div class="parallax-container valign-wrapper ">
-        <div class="section no-pad-bot ">
-            <div class="container ">
-                <div class="row center ">
-                    <h5 class="header col s12 light ">Thanks for visiting! Catch you on the flipside!
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 light">Thanks for visiting! Catch you on the flipside!
                     </h5>
                 </div>
             </div>
         </div>
-        <div class="parallax "><img src="./assets/img/bg/snorkel.jpg " alt="Unsplashed background img 3 "></div>
+        <div class="parallax"><img src="./assets/img/bg/snorkel.jpg" alt="Unsplashed background img 3"></div>
     </div>
-    <footer class="page-footer blue-grey darken-2 ">
-        <div class="container ">
-            <div class="row ">
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <div class="col l6 s12 ">
+    <footer class="page-footer blue-grey darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
                 </div>
             </div>
         </div>
-        <div class="footer-copyright ">
-            <div class="container ">
-                Copyright © 2017 David Lac
+        <div class="footer-copyright">
+            <div class="container">
+            <h5 class="rock-salt">David Lac</h5>Copyright © 2018 
             </div>
         </div>
     </footer>
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
-    <script src="js/materialize.js "></script>
-    <script src="js/init.js "></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
 </body>
 
 </html>

@@ -11,11 +11,28 @@ nav .brand-logo {
   color: #444;
 }
 
+p {
+  line-height: 2rem;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
 .btn {
   margin-top:8px;
 }
-p {
-  line-height: 2rem;
+
+.header {
+  margin-top: 30px;
+}
+
+.clearfix {
+    overflow: auto;
 }
 
 .button-collapse {
@@ -28,19 +45,16 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-container .section {
+  width: 100%;
+}
 
 .icon-block {
-  padding: 0 15px;
+  padding: 0 25px;
 }
 .icon-block .material-icons {
   font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
 }
 
 .badge {
@@ -51,6 +65,22 @@ footer.page-footer {
 
 .carousel {
   width: 100%;
+}
+
+.card.large {
+  height: 700px;
+}
+
+.parallax img { 
+  width: 100%;
+}
+
+.card-panel {
+  height: 550px;
+}
+
+.rock-salt {
+  font-family: 'Rock Salt', cursive;
 }
 
 #nametitle {
@@ -73,15 +103,21 @@ footer.page-footer {
     -webkit-transform:rotate(720deg);
 }
 
-.card.large {
-  height: 700px;
+
+#dropdown1 {
+  position: relative;
+  z-index: -999;
+  margin-top: 64px;
 }
 
-  .parallax img { 
-  width: 100%;
+
+#nametitle {
+  margin-top: 50px;
 }
 
-@media only screen and (max-width : 992px) {
+
+
+@media only screen and (max-width : 1200px) {
   .parallax .section {
     position: absolute;
     top: 40%;
@@ -92,13 +128,26 @@ footer.page-footer {
 
   .parallax img { 
   width: 1000px;
+  }
+
+  .card-panel {
+  height: 620px;
 }
 
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 992px) {
   #index-banner .section {
     top: 0;
   }
 
+.card-panel {
+  height: 340px;
+}
+
+@media only screen and (max-width : 600px) {
+
+.card-panel {
+  height: 450px;
+}
 }
