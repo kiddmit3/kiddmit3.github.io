@@ -1,49 +1,41 @@
 <!DOCTYPE html>
-
 <!-- TO DO: Add button links to footer with on hover overlay-->
-<!-- TO DO: Add css animations to fade in things -->
-
 
 <html lang="en">
 
 <head>
     <link rel="shortcut icon" href="32.png" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />  
-
-<!-- links to fonts, icons, materialize, linkedin, and custom css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- links to fonts, icons, materialize, linkedin, and custom css -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Rock+Salt" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
     <title>David Lac (Full Stack Web Developer)</title>
 </head>
 
 <body>
     <div class="navbar-fixed">
-        <ul id="dropdown1" class="dropdown-content">
+        <ul id="dropdown1" class="section dropdown-content">
             <li class="transparent"></li>
             <li class="transparent"></li>
-            <li><a href="#" class="blue-grey-text">About Me</a></li>
+            <li><a href="#index-banner" class="blue-grey-text">About Me</a></li>
             <li><a href="#port" class="blue-grey-text">My Portfolio</a></li>
             <li><a href="#other" class="blue-grey-text">Resume</a></li>
         </ul>
-
         <nav class="white z-depth-1" role="navigation">
             <div class="nav-wrapper container">
                 <a id="logo-container" href="#!" class="brand-logo dropdown-button" data-activates="dropdown1"><img id="logo" src="favicon-96x96.png"></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#">About Me</a></li>
+                <ul class="right hide-on-med-and-down section nav-linkers">
+                    <li><a href="#index-banner">About Me</a></li>
                     <li><a href="#port">My Portfolio</a></li>
                     <li><a href="#other">Resume</a></li>
                 </ul>
             </div>
         </nav>
     </div>
-
-
-    <div id="index-banner" class="parallax-container">
+    <div id="index-banner" class="parallax-container section scrollspy">
         <div class="section">
             <div class="container caption">
                 <h1 class="header center white-text text-darken-2 rock-salt" id="nametitle">DAVID LAC</h1>
@@ -88,56 +80,77 @@
         </div>
     </div>
     </div>
-    <div class="container scrollspy" id="port">
-        <div class="section">
-            <div class="row">
+    <div class="container section scrollspy" id="port">
+        <div class="row">
+            <div class="card col s12 hoverable">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" id="port-img" src="./assets/img/portfolio/eventstay.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4" id="port-title">EventStay<i class="material-icons right">more_vert</i></span>
+                    <a id="port-link" href="http://kiddmit3.github.io/EventStay/">https://kiddmit3.github.io/EventStay/</a>
+                </div>
+                <div class="card-reveal" style="opacity: 0.90;">
+                    <span class="card-title grey-text text-darken-4">About this project<i class="material-icons right">close</i></span>
+                    <p id="port-description"></p>
+                    <div id="port-badges">
+                    </div>
+                </div>
             </div>
-            <div class="carousel carousel-slider" data-indicators="true">
-                <div class="carousel-fixed-item center">
+            <div class="row" id="portfolio-row">
+                <div class="col s6 m3 hoverable">
+                    <div class="card port-card" data-name="PLW Tutoring">
+                        <div class="card-image">
+                            <a href="#port"><img src="./assets/img/portfolio/PLW.png"></a>
+                        </div>
+                        <h6>PLW Tutoring</h6>
+                    </div>
                 </div>
-                <div class="carousel-item white-text" href="#one!">
-                    <img src="./assets/img/portfolio/PLW.png">
+                <div class="col s6 m3 hoverable">
+                    <div class="card port-card" data-name="TapTapBeat">
+                        <div class="card-image">
+                            <a href="#port"><img src="./assets/img/portfolio/TapTap.jpg"></a>
+                        </div>
+                        <h6>TapTapBeat</h6>
+                    </div>
                 </div>
-                <div class="carousel-item white-text" href="#two!">
-                    <img src="./assets/img/portfolio/eventstay.png">
+                <div class="col s6 m3 hoverable">
+                    <div class="card port-card" data-name="FriendFinder">
+                        <div class="card-image">
+                            <a href="#port"><img src="./assets/img/portfolio/friendfinder.png"></a>
+                        </div>
+                        <h6>Friend Finder</h6>
+                    </div>
                 </div>
-                <div class="carousel-item white-text" href="#three!">
-                    <img src="./assets/img/portfolio/friendfinder.png">
+                <div class="col s6 m3 hoverable">
+                    <div class="card port-card" data-name="EventStay">
+                        <div class="card-image">
+                            <a href="#port"><img src="./assets/img/portfolio/eventstay.png"></a>
+                        </div>
+                        <h6>EventStay</h6>
+                    </div>
                 </div>
-                <div class="carousel-item white-text" href="#four!">
-                    <img src="./assets/img/portfolio/taptap.jpg">
-                </div>
-                <div class="carousel-item white-text" href="#five!">
-                    <img src="./assets/img/portfolio/todo.jpg">
-                </div>              
-            </div>
-            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://plw-tutor-service.herokuapp.com/" target="_blank" >PLW Tutoring</a>      
-            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="http://kiddmit3.github.io/EventStay/" target="_blank" >EventStay</a>
-            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://davidsfriendfinder.herokuapp.com/" target="_blank">FriendFinder</a>
-            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://kiddmit3.github.io/TapTapBeat/" target="_blank" >TapTapBeat</a>
-            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://kiddmit3.github.io/RBGColorGame/" target="_blank" >RBGColorGame</a>
-            <a class="btn waves-effect waves-light blue-grey lighten-1 hoverable" href="https://kiddmit3.github.io/ToDoList/" target="_blank" >To Do List</a>                        
-            <div class="icon-block col s12 card hoverable">
-                <p class="light">Here I have highlighted a few of my more polished works that show a number of technologies through both front end and back end web development. I always have a few projects I'm working on so come back and see what's updated.</p>
-            </div>
-            <div class="col s12 center">
-                <img class="badge" src="./assets/img/html5.png">
-                <img class="badge" src="./assets/img/css.png">
-                <img class="badge" src="./assets/img/bootstrap.png">
-                <img class="badge" src="./assets/img/jquery.png">
-                <img class="badge" src="./assets/img/node.png">      
-                <img class="badge" src="./assets/img/javascript.png">
-                <img class="badge" src="./assets/img/expressjs.png">
-                <img class="badge" src="./assets/img/mysql.png">
-                <img class="badge" src="./assets/img/mongodb.png"> 
-                <img class="badge" src="./assets/img/materialize.png">
-                <img class="badge" src="./assets/img/reactjs.png">
             </div>
         </div>
+        <p class="light">Here I have highlighted a few of my more polished works that show a number of technologies through both front end and back end web development. I always have a few projects I'm working on so come back and see what's updated.</p>
     </div>
-
-
-    <div class="parallax-container valign-wrapper scrollspy" id="other">
+    <div class="col s12 center">
+        <img class="badge" src="./assets/img/html5.png">
+        <img class="badge" src="./assets/img/css.png">
+        <img class="badge" src="./assets/img/bootstrap.png">
+        <img class="badge" src="./assets/img/jquery.png">
+        <img class="badge" src="./assets/img/node.png">
+        <img class="badge" src="./assets/img/javascript.png">
+        <img class="badge" src="./assets/img/expressjs.png">
+        <img class="badge" src="./assets/img/mysql.png">
+        <img class="badge" src="./assets/img/mongodb.png">
+        <img class="badge" src="./assets/img/materialize.png">
+        <img class="badge" src="./assets/img/reactjs.png">
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="parallax-container valign-wrapper section scrollspy" id="other">
         <div class="section no-pad-bot">
             <div class="container">
                 <div class="row center">
@@ -148,35 +161,32 @@
         </div>
         <div class="parallax"><img src="./assets/img/bg/bg2.jpg" alt="Unsplashed background img 2"></div>
     </div>
-
     <div class="container">
         <div class="section">
-            <div class="row">
+            <div class="row valign-wrapper">
                 <div class="col s12 m6">
-                    <div class="LI-profile-badge center"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="davidlac"><a class="LI-simple-link" href='https://www.linkedin.com/in/davidlac?trk=profile-badge'>David Lac</a></div>
+                    <div class="LI-profile-badge center" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="davidlac"><a class="LI-simple-link" href='https://www.linkedin.com/in/davidlac?trk=profile-badge'>David Lac</a></div>
                 </div>
-
                 <div class="col s12 m6">
-                  <div class="card hoverable">
-                    <div class="card-image">
-                      <img class="activator" src="./assets/img/cardimg/5.jpg">
-                      <a class="btn-floating halfway-fab waves-effect waves-light red" onclick="window.open( 'DavidLacWebResume.pdf')" id="pdf-button"><i class="material-icons">attach_file</i></a>
+                    <div class="card hoverable" id="resume-card">
+                        <div class="card-image">
+                            <img class="activator" src="./assets/img/cardimg/5.jpg">
+                            <a class="btn-floating halfway-fab waves-effect waves-light red" onclick="window.open( 'DavidLacWebResume.pdf')" id="pdf-button"><i class="material-icons">attach_file</i></a>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">David's Resume<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Pass it around!<i class="material-icons right">close</i></span>
+                            <p>My resume is available for download as a .pdf for any prospective employers. If there are any queries regarding my resume, feel free to contact me about it and I'll make sure to send a response with your questions get answered!</p>
+                            <a class="btn-large waves-effect waves-light red" onclick="window.open( 'DavidLacWebResume.pdf')" id="pdf-button"><i class="material-icons">attach_file</i></a>
+                        </div>
                     </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">David's Resume<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Pass it around!<i class="material-icons right">close</i></span>
-                      <p>My resume is available for download as a .pdf for any prospective employers. If there are any queries regarding my resume, feel free to contact me about it and I'll make sure to send a response with your questions get answered!</p>
-                      <a class="btn-large waves-effect waves-light red" onclick="window.open( 'DavidLacWebResume.pdf')" id="pdf-button"><i class="material-icons">attach_file</i></a>
-                    </div>
-                  </div>
                 </div>
-                </div>                
             </div>
         </div>
     </div>
-
+    </div>
     <div class="container">
         <div class="section">
             <div class="row">
@@ -213,7 +223,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-            <h5 class="rock-salt">David Lac</h5>Copyright © 2018 
+                <h5 class="rock-salt">David Lac</h5>Copyright © 2018
             </div>
         </div>
     </footer>

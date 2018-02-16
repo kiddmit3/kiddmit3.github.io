@@ -1,11 +1,6 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
+nav ul a.active {
+  background: rgba(0,0,0,0.08);
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -25,6 +20,10 @@ footer.page-footer {
 
 .btn {
   margin-top:8px;
+}
+
+.nav-linkers {
+  margin-top: -14.5px;
 }
 
 .header {
@@ -59,17 +58,15 @@ footer.page-footer {
 
 .badge {
   width:7.5%;
+  max-width: 80px;
   margin-right: .2%;
   margin-bottom: 10%;
 }
 
-.carousel {
-  width: 100%;
-}
-
-.card.large {
-  height: 700px;
-}
+/*.carousel {
+  margin-bottom: -80px;
+  height: 200px
+}*/
 
 .parallax img { 
   width: 100%;
@@ -83,6 +80,9 @@ footer.page-footer {
   font-family: 'Rock Salt', cursive;
 }
 
+.port-card {
+  padding: 10px;
+}
 #nametitle {
   font-weight: 600;
   position: relative;
@@ -103,9 +103,14 @@ footer.page-footer {
     -webkit-transform:rotate(720deg);
 }
 
+#logo:active{
+    transform:rotate(720deg);
+    -ms-transform:rotate(720deg);
+    -webkit-transform:rotate(720deg);
+}
+
 
 #dropdown1 {
-  position: relative;
   z-index: -999;
   margin-top: 64px;
 }
@@ -115,6 +120,9 @@ footer.page-footer {
   margin-top: 50px;
 }
 
+#resume-card {
+  max-width: 300px;
+}
 
 
 @media only screen and (max-width : 1200px) {
@@ -147,7 +155,13 @@ footer.page-footer {
 
 @media only screen and (max-width : 600px) {
 
+#dropdown1 {
+  z-index: -999;
+  margin-top: 55px;
+}
+
 .card-panel {
   height: 450px;
+
 }
 }
