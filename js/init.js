@@ -77,7 +77,7 @@ $(".port-card").click(function() {
 });
 
 $(document).ready(function() {
-    $('.scrollspy').scrollSpy({ scrollOffset: 60 });
+    $('.scrollspy').scrollSpy({ scrollOffset: 55 });
     $('.collapsible').collapsible();
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
