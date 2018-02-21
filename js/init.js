@@ -44,7 +44,7 @@ var portfolioPieces = [{
     {
         name: "Plastic Boulders",
         description: "A full stack application that allows rock climbing gym-goers to document and share their climbs, past and present. Create an account, upload images, and contribute to the database of climbing routes.",
-        URL: "https://github.com/kiddmit3/plasticBoulders",
+        URL: "https://plasticboulders.herokuapp.com/",
         image: "./assets/img/portfolio/plasticb.jpg",
         technologies: ["html5", "css", "node", "javascript", "expressjs", "mongodb", "bootstrap"]
     },

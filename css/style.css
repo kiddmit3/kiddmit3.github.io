@@ -18,6 +18,14 @@ footer.page-footer {
   margin: 0;
 }
 
+.social-btn {
+  margin: 2px;
+  padding: 4px;
+  color: #455A64;
+  font-size: 32px;
+
+}
+
 .btn {
   margin-top:8px;
 }
