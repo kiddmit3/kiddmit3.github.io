@@ -12,7 +12,7 @@ This is my personal portfolio webpage developed to showcase some of my work to a
 
 ## Mobile responsive
 
-![Screenshot](https://raw.githubusercontent.com/kiddmit3/EventStay/master/assets/images/readme/iphonexmock.png)
+![Screenshot](https://raw.githubusercontent.com/kiddmit3/kiddmit3.github.io/master/assets/readme/iphone8plus.PNG)
 
 
 ## Authors
