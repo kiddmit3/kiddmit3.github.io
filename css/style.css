@@ -98,26 +98,24 @@ footer.page-footer {
   top: 40px;
 }
 
+@keyframes spin{
+    0% { opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    transform:rotate(720deg);
+    -ms-transform:rotate(720deg);
+    -webkit-transform:rotate(720deg);
+    }
+}
+
 #logo {
-    border-radius:50%;    
-    -webkit-transition: -webkit-transform .5s ease-in-out;
-    -ms-transition: -ms-transform .8s ease-in-out;
-    transition: transform .5s ease-in-out;
-
-    
+    -webkit-animation: 1s ease 0s normal 1 spin;
+    animation: 1s ease 0s normal 1 spin;  
+  
 }
 
-#logo:hover {
-    transform:rotate(720deg);
-    -ms-transform:rotate(720deg);
-    -webkit-transform:rotate(720deg);
-}
 
-#logo:active{
-    transform:rotate(720deg);
-    -ms-transform:rotate(720deg);
-    -webkit-transform:rotate(720deg);
-}
 
 
 #dropdown1 {
