@@ -54,6 +54,13 @@ var portfolioPieces = [{
         URL: "https://pollstart.herokuapp.com/",
         image: "./assets/img/portfolio/pollstart.png",
         technologies: ["html5", "css", "node", "javascript", "expressjs", "mongodb", "materialize"]
+    },
+        {
+        name: "Giftastic",
+        description: "A dynamic web page that populates with gifs of your choice using Giphy API.",
+        URL: "https://kiddmit3.github.io/GifTastic",
+        image: "./assets/img/portfolio/giftastic.png",
+        technologies: ["html5", "css", "bootstrap", "javascript"]
     }
 ];
 
