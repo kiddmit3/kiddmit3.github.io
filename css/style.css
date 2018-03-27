@@ -106,7 +106,8 @@ footer.page-footer {
 
     
 }
-#logo:hover{
+
+#logo:hover {
     transform:rotate(720deg);
     -ms-transform:rotate(720deg);
     -webkit-transform:rotate(720deg);

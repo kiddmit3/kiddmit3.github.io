@@ -8,7 +8,7 @@ var portfolioPieces = [{
     {
         name: "PLW Tutoring",
         description: "Built for Premier Education, this is a customized React application that organizes schedules for tutors and students.",
-        URL: "https://plw-tutor-service.herokuapp.com/",
+        URL: "https://kiddmit3.github.io/Premier-Academy-Arcadia/",
         image: "./assets/img/portfolio/PLW.png",
         technologies: ["html5", "css", "node", "javascript", "expressjs", "mysql", "materialize", "reactjs"]
     },
@@ -49,11 +49,11 @@ var portfolioPieces = [{
         technologies: ["html5", "css", "node", "javascript", "expressjs", "mongodb", "bootstrap"]
     },
     {
-        name: "Newspaper Scrapper Note Taker",
-        description: "",
-        URL: "",
-        image: "",
-        technologies: ""
+        name: "PollstaRT",
+        description: "Full Stack application that allows real time voting and updating using web sockets for connection and canvas.js for display.",
+        URL: "https://pollstart.herokuapp.com/",
+        image: "./assets/img/portfolio/pollstart.png",
+        technologies: ["html5", "css", "node", "javascript", "expressjs", "mongodb", "materialize"]
     }
 ];
 
