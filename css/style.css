@@ -135,9 +135,9 @@ footer.page-footer {
     }
     100% {
         opacity: 1;
-    transform:rotate(720deg);
-    -ms-transform:rotate(720deg);
-    -webkit-transform:rotate(720deg);
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
     }
 }
 
@@ -161,7 +161,7 @@ footer.page-footer {
 }
 
 #resume-card {
-  width: 300px;
+  width: 20vw;
   margin: 0 auto;
   margin-top: 15px;
 }
@@ -182,7 +182,10 @@ footer.page-footer {
 
   .card-panel {
   height: 620px;
-}
+  }
+  #resume-card {
+    width: 35vw;
+  }
 
 }
 
@@ -195,6 +198,10 @@ footer.page-footer {
   height: 340px;
 }
 
+#resume-card {
+  width: 30vw;
+}
+
 @media only screen and (max-width : 600px) {
 
 #dropdown1 {
@@ -205,5 +212,9 @@ footer.page-footer {
 .card-panel {
   height: 450px;
 
+}
+
+#resume-card {
+  width: 80vw;
 }
 }
