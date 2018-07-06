@@ -53,9 +53,17 @@ footer.page-footer {
 .social-btn {
   margin: 2px;
   margin-bottom: 20px;
-  padding: 4px;
+  padding: 0px;
+  position: relative;
+  top: 15px;
   color: #455A64;
-  font-size: 32px;
+}
+
+body {
+background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 100vw;
 
 }
 
@@ -79,6 +87,10 @@ footer.page-footer {
   color: #26a69a;
 }
 
+.container {
+  padding: 0px 100px;
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -97,6 +109,11 @@ footer.page-footer {
   font-size: inherit;
 }
 
+#firstpic {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+}
+
 .badge {
   width:7.5%;
   max-width: 80px;
@@ -104,18 +121,11 @@ footer.page-footer {
   margin-bottom: 10%;
 }
 
-/*.carousel {
-  margin-bottom: -80px;
-  height: 200px
-}*/
 
 .parallax img { 
   width: 100%;
 }
 
-.card-panel {
-  height: 550px;
-}
 
 .rock-salt {
   font-family: 'Rock Salt', cursive;
@@ -134,10 +144,10 @@ footer.page-footer {
     0% { opacity: 1;
     }
     100% {
-        opacity: 1;
-    transform:rotate(360deg);
-    -ms-transform:rotate(360deg);
-    -webkit-transform:rotate(360deg);
+    opacity: 1;
+    transform:rotate(720deg);
+    -ms-transform:rotate(720deg);
+    -webkit-transform:rotate(720deg);
     }
 }
 
@@ -147,6 +157,13 @@ footer.page-footer {
   
 }
 
+#resume-container {
+  background: url(../assets/bg.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 
 
@@ -161,13 +178,23 @@ footer.page-footer {
 }
 
 #resume-card {
-  width: 20vw;
+  max-width: 400px;
   margin: 0 auto;
   margin-top: 15px;
 }
 
+.card-panel {
+  height: 65vh;
+}
+@media only screen and (max-width : 1600px) {
 
-@media only screen and (max-width : 1200px) {
+.card-panel {
+  height: 80vh;
+}
+
+}
+
+@media only screen and (max-width : 1400px) {
   .parallax .section {
     position: absolute;
     top: 40%;
@@ -181,25 +208,21 @@ footer.page-footer {
   }
 
   .card-panel {
-  height: 620px;
-  }
-  #resume-card {
-    width: 35vw;
+  height: 85vh;
   }
 
+
+.container {
+  padding: 0px 20px;
+}
 }
 
-@media only screen and (max-width : 992px) {
-  #index-banner .section {
-    top: 0;
-  }
+@media only screen and (max-width : 990px) {
 
 .card-panel {
-  height: 340px;
+  height: 50vh;
 }
 
-#resume-card {
-  width: 30vw;
 }
 
 @media only screen and (max-width : 600px) {
@@ -210,11 +233,7 @@ footer.page-footer {
 }
 
 .card-panel {
-  height: 450px;
-
+  height: 85vh;
 }
 
-#resume-card {
-  width: 80vw;
-}
 }

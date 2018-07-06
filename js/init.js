@@ -44,7 +44,7 @@ var portfolioPieces = [{
     {
         name: "βouldersapp™",
         description: "A full stack application that allows rock climbing gym-goers to document and share their climbs, past and present. Create an account, upload images/videos, and contribute to the database of climbing routes. But most of all, view the solutions to the routes you are struggling with at the gym! Log in with username: 'demo' and password: 'password' to see all the features including QR codes, membership checking, and personal statistics.",        
-        URL: "https://plasticboulders.herokuapp.com/",
+        URL: "https://betabouldersapp.com",
         image: "./assets/img/portfolio/plasticb.jpg",
         technologies: ["html5", "css", "node", "javascript", "expressjs", "mongodb", "bootstrap"]
     },
@@ -55,12 +55,19 @@ var portfolioPieces = [{
         image: "./assets/img/portfolio/pollstart.png",
         technologies: ["html5", "css", "node", "javascript", "expressjs", "mongodb", "materialize"]
     },
-        {
+    {
         name: "Giftastic",
         description: "A dynamic web page that populates with gifs of your choice using Giphy API.",
         URL: "https://kiddmit3.github.io/GifTastic",
         image: "./assets/img/portfolio/giftastic.png",
         technologies: ["html5", "css", "bootstrap", "javascript"]
+    },
+    {
+        name: "DJ WUWU",
+        description: "React single page application with mobile responsiveness to elagantly promote a LA based DJ",
+        URL: "djwuwu.com",
+        image: "./assets/img/portfolio/djwuwu.png",
+        technologies: ["html5", "css", "node", "javascript", "expressjs", "bootstrap", "reactjs", "mongodb"]
     }
 ];
 
@@ -84,7 +91,7 @@ $(".port-card").click(function() {
 });
 
 $(document).ready(function() {
-    $('.scrollspy').scrollSpy({ scrollOffset: 55 });
+    $('.scrollspy').scrollSpy({ scrollOffset: 115 });
     $('.collapsible').collapsible();
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
