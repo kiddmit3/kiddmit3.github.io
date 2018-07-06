@@ -8,7 +8,7 @@ var portfolioPieces = [{
     {
         name: "Premier Education Tutoring",
         description: "Built for Premier Education, this is a customized React application that organizes schedules for tutors and students.",
-        URL: "https://kiddmit3.github.io/Premier-Academy-Arcadia/",
+        URL: "https://paarcadia.com/",
         image: "./assets/img/portfolio/PLW.png",
         technologies: ["html5", "css", "node", "javascript", "expressjs", "mysql", "materialize", "reactjs"]
     },

@@ -275,7 +275,7 @@ clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
 }
 
 .zoomInDown {
-    animation: 1s ease 1.6s 1 zoomInDown
+    animation: 1s ease 1.5s 1 zoomInDown
 }
 
 @keyframes shine {
@@ -301,5 +301,5 @@ from {
 }
 
 .shine {
-  animation: 1.5s ease 2.6s 1 shine
+  animation: 1.6s ease 2.6s 1 shine
 }
