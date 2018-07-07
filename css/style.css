@@ -151,6 +151,7 @@ clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
     }
 }
 
+
 #logo:hover {
     -webkit-animation: 1s ease 0s normal 1 spin;
     animation: 1s ease 0s normal 1 spin;  
