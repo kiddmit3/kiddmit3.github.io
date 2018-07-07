@@ -303,3 +303,8 @@ from {
 .shine {
   animation: 1.6s ease 2.6s 1 shine
 }
+
+.grow:hover {
+    transform: scale(1.3);
+}
+
