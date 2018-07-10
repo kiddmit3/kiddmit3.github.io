@@ -93,11 +93,11 @@ $(".port-card").click(function() {
 $(document).ready(function() {
     $('.scrollspy').scrollSpy({ scrollOffset: 115 });
     $('.collapsible').collapsible();
-    $('.button-collapse').sideNav();
+    $('.sidenav').sideNav();
     $('.parallax').parallax();
     portMain(0);
 });
-
+       
 
 
 // $('.carousel').carousel({fullWidth: false},{dist: -20});
