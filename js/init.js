@@ -15,7 +15,7 @@ var portfolioPieces = [
     },
     {
         name: "Premier Education Tutoring",
-        description: "(Client) Built for Premier Education, this is a customized React application that organizes schedules for tutors and students.",
+        description: "(Client) Built for Premier Education, this is a customized React application that books session for tutors and students.",
         URL: "https://paarcadia.com/",
         image: "./assets/img/portfolio/PLW.png",
         technologies: ["html5", "css", "node", "javascript", "expressjs", "mysql", "materialize", "reactjs"]
@@ -43,8 +43,8 @@ var portfolioPieces = [
         technologies: ["html5", "css", "jquery", "bootstrap"]
     },
     {
-        name: "βouldersapp™",
-        description: "(Founder) A full stack application that allows rock climbing gym-goers to document and share their climbs, past and present. Create an account, upload images/videos, and contribute to the database of climbing routes. But most of all, view the solutions to the routes you are struggling with at the gym! Log in with username: 'demo' and password: 'password' to see all the features including QR codes, membership checking, and personal statistics.",        
+        name: "βoulders™",
+        description: "(Founder) A full stack application that allows rock climbing gym-goers to document and share their climbs, past and present. Create an account, upload images/videos, and contribute to the database of climbing routes. But most of all, view the solutions to the routes you are struggling with at the gym! Log in with username: 'demo' and password: 'password' to see all the features including QR codes, membership checkin, and personal statistics.",        
         URL: "https://betabouldersapp.com",
         image: "./assets/img/portfolio/plasticb.jpg",
         technologies: ["html5", "css", "node", "javascript", "expressjs", "mongodb", "bootstrap"]
