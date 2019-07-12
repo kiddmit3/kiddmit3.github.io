@@ -116,7 +116,7 @@ clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
 
 .badge {
   width:7.5%;
-  max-width: 80px;
+  max-width: 60px;
   margin-right: .2%;
   margin-bottom: 10%;
 }
