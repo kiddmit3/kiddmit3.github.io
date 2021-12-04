@@ -50,6 +50,7 @@ h1 {
 
 footer.page-footer {
     margin: 0;
+    margin-top: 100px;
 }
 
 .social-btn {
@@ -69,7 +70,7 @@ body {
     background: linear-gradient(to bottom, #FFFFFF, #F8F8FF);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100vw;
-
+    overflow-x: hidden;
 }
 
 .btn {
@@ -102,6 +103,7 @@ body {
     line-height: 0;
     height: auto;
     color: rgba(255, 255, 255, .9);
+    overflow-x: none;
 }
 
 .parallax-container .section {
